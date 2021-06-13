@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+body {
+  color: black;
+  font-family: 'Cinzel', 'Karla', sans-serif;
+  background-image: url(../images/pexels-pixabay-262325.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */
