@@ -1,10 +1,6 @@
 body {
   color: black;
   font-family: 'Cinzel', 'Karla', sans-serif;
-
-  background-image: url(../images/pexels-pixabay-262325.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 a {
@@ -20,3 +16,20 @@ ul {
 //   display: block;
 //   height: auto;
 // }
+
+.todo__container {
+  outline: 1px salmon solid;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list__tasks {
+  font-size: 30px;
+  font-family: Karla;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}

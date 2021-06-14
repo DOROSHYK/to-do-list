@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Заголовок страницы</title>
+    <title>todo list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -16,6 +19,30 @@
       rel="stylesheet">
   </head>
   <body>
+    <section class="hero">
+      <h1 class="hero__title">TODO LIST</h1>
+    </section>
+    <div class="todo__container">
+      <div class="add__todo__wrapper">
+
+<input type="text" id="input-value">
+
+      </div>
+
+      <div class="button__container">
+
+        <button class="button__style" id="add-btn-task">Додати</button>
+
+      </div>
+      <h2 class="list__tasks">Завдання на день:</h2>
+      <div class="todo__list">
+
+      </div>
+
+
+
+
+    </div>
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
